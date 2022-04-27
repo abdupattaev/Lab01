@@ -1,0 +1,64 @@
+.header {
+    border-bottom: 1px solid gray;
+}
+.footer{
+    border-top: 1px solid gray;
+}
+
+body {
+    background-image: url("background.webp");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+table>caption {
+    color: rgb(84, 241, 5);
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.moodsimg {
+    width:"300";
+    height:"300";
+}
+h1{
+    color: maroon;
+}
+h2{
+    color: red;
+}
+p{
+    font-family: Arial;
+    font-size: 100%;
+}
+table tr td{
+    width: 100px;
+    text-align: center;
+}
+ol{
+    counter-reset:item 4; 
+}
+ol li {
+   counter-increment:item -1;
+   list-style-type:none;
+  
+}
+ol li:before {
+   content:counter(item) ". ";
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+dl{
+     margin-left:20px;
+}
+dt{
+    color:sandybrown;
+}
